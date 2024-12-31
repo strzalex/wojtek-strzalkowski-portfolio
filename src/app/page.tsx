@@ -1,13 +1,1 @@
-import HeroSection from '../components/HeroSection';
-import ExperienceSection from '../components/ExperienceSection';
-
-export default function Home() {
-  return (
-    <main className="min-h-screen p-8">
-      <div className="max-w-4xl mx-auto">
-        <HeroSection />
-        <ExperienceSection />
-      </div>
-    </main>
-  )
-}
+import HeroSection from '../components/HeroSection';\nimport ExperienceSection from '../components/ExperienceSection';\nimport ConsultingSection from '../components/ConsultingSection';\nimport ExpertiseSection from '../components/ExpertiseSection';\n\nexport default function Home() {\n  return (\n    <main className=\"min-h-screen p-8\">\n      <div className=\"max-w-4xl mx-auto\">\n        <HeroSection />\n        <ExperienceSection />\n        <ConsultingSection />\n        <ExpertiseSection />\n      </div>\n    </main>\n  )\n}
